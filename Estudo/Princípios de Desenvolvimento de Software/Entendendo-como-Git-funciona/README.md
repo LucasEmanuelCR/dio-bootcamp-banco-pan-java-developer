@@ -63,10 +63,10 @@ echo 'conteudo' | git hash-object --stdin
 
 #### Comandos úteis
 
-**Gerar uma nova chave**:
+- **Gerar uma nova chave**:
 `bash`
 ssh-keygen -t ed25519 -C "seu-email@example.com"
-Iniciar o agente SSH: eval $(ssh-agent -s)
+- **Iniciar o agente SSH**: eval $(ssh-agent -s)
 
 ---
 ## 🚀 Primeiros Comandos Git
