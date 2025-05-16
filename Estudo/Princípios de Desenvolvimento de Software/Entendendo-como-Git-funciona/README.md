@@ -31,7 +31,7 @@ O Git armazena seus dados em **três tipos principais de objetos**:
 - **Estrutura**: `blob [tamanho]\0[conteúdo]`
 
 **Criar SHA-1 para um conteúdo**:
-``bash
+`bash
 echo 'conteudo' | git hash-object --stdin
 
 ### 2. Trees
