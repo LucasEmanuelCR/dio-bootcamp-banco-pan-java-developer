@@ -17,7 +17,7 @@
 - Serve como um identificador compacto para objetos.
 
 **Comando (fora do Git)**:
-`bash
+`bash`
 openssl sha1 [arquivo]
 
 ---
@@ -31,7 +31,7 @@ O Git armazena seus dados em **três tipos principais de objetos**:
 - **Estrutura**: `blob [tamanho]\0[conteúdo]`
 
 **Criar SHA-1 para um conteúdo**:
-`bash
+`bash`
 echo 'conteudo' | git hash-object --stdin
 
 ### 2. Trees
@@ -64,7 +64,7 @@ echo 'conteudo' | git hash-object --stdin
 #### Comandos úteis
 
 **Gerar uma nova chave**:
-``bash
+`bash`
 ssh-keygen -t ed25519 -C "seu-email@example.com"
 Iniciar o agente SSH: eval $(ssh-agent -s)
 
